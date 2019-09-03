@@ -36,12 +36,12 @@
   <main>
     <section>
       <h2>Carreer summary</h2>
-      <p>Experienced research and development data management specialist with
-        solid theoretical and practical background in computer science.</p>
+      <p>R&D data management specialist with solid theoretical and practical
+        background in computer science.</p>
       <p>Strong research experience with multiple top-rank publications and a
         Phd degree in Big Data management and massively parallel systems.</p>
-      <p>Demonstrated coding-skills in many programming languages with expertise
-        (10+ years) in Java.</p>
+      <p>Advanced coding-skills with expertise (10+ years) in Java, good
+        knowledge of C, and past experience in C++, Javascript, and Python.</p>
       <p>Opensource advocate and PMC member of <a
           href="https://calcite.apache.org/">Apache Calcite</a>.</p>
       <p>Good communication and organisation skills with teaching experience
@@ -83,22 +83,17 @@
         </div>
         <div class="time-in-position">2015 - 2016</div>
         <ul>
-          <li>Studied ... partioning ... RDF data.</li>
-          <li>Estocada??</li>
-          <li>Co-authored a book on the efficient management of RDF data in the
-            cloud.</li>
-          <li>Studied, implemented, and compared multiple variants of the Chase
-            algorithm for rewritting queries using views.</li>
-          <li>Mentored new PhD students on their thesis on topics around query
-            optimization.</li>
-          <li>Trained new engineers and master students arriving at the team.
-          </li>
-          <li>Collaborated with...</li>
+          <li>Devised data integration techniques for applications relying on
+            multiple data management systems (Postgres, MongoDB, AsterixDB,
+            SparkSQL, Solr) to facilitate querying and improve performance,
+            publishing 2 papers in top international conferences.</li>
+          <li>Assisted in the implementation of Estocada by improving the query
+            rewritting algorithm and prototyping the connectors for Redis,
+            Spark, and Postgres.</li>
+          <li>Co-authored a book (under publication) on cloud-based RDF data
+            management, presenting and critizing the most prominent aproaches in
+            terms of storage, query processing, and reasoning.</li>
         </ul>
-        <p>The main objective of this position was to design scalable and
-          flexible RDF stores capable of hosting large volumes of Semantic Web
-          data. It builds upon the work performed during the thesis and targets
-          aspects of efficient data access in massively distributed systems.</p>
       </article>
       <article>
         <h3>Doctoral researcher</h3>
@@ -106,14 +101,33 @@
             France</span>
         </div>
         <div class="time-in-position">2012 - 2015</div>
-        <p>The main objective of my thesis was to study and develop efficient
-          algorithms for managing big volumes of Semantic Web (RDF) data using
-          cloud technologies. The storage and retrieval of RDF data using the
-          Amazon cloud and the Hadoop framework are the main axis of this study.
-        </p>
-        <p>The focus is towards query optimization where the developed
-          algorithms are able to provide massively parallel execution plans
-          ideal for distributed systems and multi-core architectures.</p>
+        <ul>
+          <li>Devised partitioning and query processing algorithms for
+            distributed architectures emphasizing on RDF data management
+            publishing 3 conference papers (in ICDE, BDA).</li>
+          <li>Designed and implemented CliqueSquare, a distributed system
+            relying on Hadoop MapReduce/HDFS capable of answering queries 10x
+            faster than the state-of-the-art; it features a query/plan parser,
+            algebraic operators, a novel partitioner and query planner.</li>
+          <li>Devised indexes for cloud-based RDF data management systems
+            examining performance/storage/monetary cost trade offs publishing
+            the results in a book chapter.</li>
+          <li>Directed the implementation of RDF indexes in AMADA, a data
+            management system for RDF/XML data relying on Amazon S3, EC2,
+            DynamoDB, and SQS services.</li>
+          <li>Designed a system for semi-automatic fact-checking publishing a
+            demo paper in SIGMOD and initiating a collaboration with Le Monde.
+          </li>
+          <li>Designed and implemented FactMinder, a Chrome plugin for
+            semi-automatic fact-checking relying on Javascript and JQuery.</li>
+          <li>Administrated the installations of Hadoop, Spark, Redis, Postgres,
+            and Hive in a cluster of 10 nodes.</li>
+          <li>Organized the seminars of the LaHDAK team.</li>
+          <li>Participated in conferences and forums promoting the OAK team and
+            disseminating our work.</li>
+          <li>Aid new members of the team introducing them to the common
+            procedures and tools.</li>
+        </ul>
       </article>
       <article>
         <h3>Teaching associate</h3>
@@ -139,15 +153,17 @@
             France</span>
         </div>
         <div class="time-in-position">2010 - 2011</div>
-        <p>The main objective was to study the problem of the efficient
-          management of web resources in large-scale P2P networks.</p>
-        <p>The first part of the research involved the incorporation of semantic
-          RDF data in ViP2P platform (including the addition of reasoning).</p>
-        <p>The second part of the research emphasized on finding a model for
-          storing and efficiently retrieving large amounts of RDF and XML data.
-        </p>
-        <p>The project includes the implementation of a prototype platform and
-          scientific publications showing its theoretical value</p>
+        <ul>
+          <li>Devised a novel data model (XR) for naturally representing
+            documents (XML) with annotations (RDF) publishing 3 papers (in BDA,
+            ISIS, VLDB).</li>
+          <li>Implemented a system prototype for XR by extending ViP2P, a P2P
+            XML data management system implemented in Java, with RDF support
+            and a bind join algorithm.</li>
+          <li>Designed and implemented in Java a customizable generator for RDF
+            data, capable of generating millions of RDF triples in only a few
+            seconds, which was used for benchmarking the XR system.</li>
+        </ul>
       </article>
       <article>
         <h3>Teaching assistant</h3>
@@ -166,12 +182,20 @@
             Greece</span>
         </div>
         <div class="time-in-position">2008 - 2010</div>
-        <p>The main objective was to study the problem of visualization and
-          exploration of RDF data.</p>
-        <p>The research aims at graphically representing RDF data exploiting the
-          « Force-Directed Placement Algorithms ». The project is accompanied by
-          a fully operational platform implemented in JAVA and 2 scientific
-          publications. </p>
+        <ul>
+          <li>Devised techniques for the visualization and exploration of RDF
+            graphs, publishing 2 papers (in JVLC, ESWC).</li>
+          <li>Implemented some of the major features of StarLion, an RDF
+            visualization
+            application written in Java (relying on JGraph), such as
+            smooth transitions, semi-automatic layout, plugin support, force
+            indicators, node colouring, save/load layouts, undo/redo actions,
+            image exporting ), which according to user studies greatly improved
+            the usability of the tool.</li>
+          <li>Improved the performance of StarLion (through caching, better data
+            structures, and smarter algorithms) reducing response time by a
+            factor of 100.</li>
+        </ul>
       </article>
     </section>
     <section>
