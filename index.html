@@ -3,34 +3,40 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/master.css">
   <title></title>
 </head>
 
 <body>
   <header>
     <h1>Stamatis Zampetakis</h1>
-    <img height="150px" src="profile.png" alt="Profile photo">
-    <div>
-      <ul>
-        <li>61 Terrasse de l'Arche, 92000, Nanterre, France</li>
-        <li>+33 (0) 6 51 05 95 75</li>
-        <li>zabetak@gmail.com</li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li><a
-            href="https://fr.linkedin.com/in/zabetak/">https://fr.linkedin.com/in/zabetak/</a>
-        </li>
-        <li><a href="https://github.com/zabetak">https://github.com/zabetak</a>
-        </li>
-        <li><a
-            href="https://stackoverflow.com/users/2160578/zabetak">https://stackoverflow.com/users/2160578/zabetak</a>
-        </li>
-        <li><a
-            href="https://dblp.uni-trier.de/pers/hd/z/Zampetakis:Stamatis">https://dblp.uni-trier.de/pers/hd/z/Zampetakis:Stamatis</a>
-        </li>
-      </ul>
+    <div class="contact">
+      <div id="profile-photo">
+        <img height="150px" src="profile.png" alt="Profile photo">
+      </div>
+      <div id="primary">
+        <ul>
+          <li>61 Terrasse de l'Arche, 92000, Nanterre, France</li>
+          <li>+33 (0) 6 51 05 95 75</li>
+          <li>zabetak@gmail.com</li>
+        </ul>
+      </div>
+      <div id="secondary">
+        <ul>
+          <li><a
+              href="https://fr.linkedin.com/in/zabetak/">https://fr.linkedin.com/in/zabetak/</a>
+          </li>
+          <li><a
+              href="https://github.com/zabetak">https://github.com/zabetak</a>
+          </li>
+          <li><a
+              href="https://stackoverflow.com/users/2160578/zabetak">https://stackoverflow.com/users/2160578/zabetak</a>
+          </li>
+          <li><a
+              href="https://dblp.uni-trier.de/pers/hd/z/Zampetakis:Stamatis">https://dblp.uni-trier.de/pers/hd/z/Zampetakis:Stamatis</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
@@ -158,8 +164,8 @@
             documents (XML) with annotations (RDF) publishing 3 papers (in BDA,
             ISIS, VLDB).</li>
           <li>Implemented a system prototype for XR by extending ViP2P, a P2P
-            XML data management system implemented in Java, with RDF support
-            and a bind join algorithm.</li>
+            XML data management system implemented in Java, with RDF support and
+            a bind join algorithm.</li>
           <li>Designed and implemented in Java a customizable generator for RDF
             data, capable of generating millions of RDF triples in only a few
             seconds, which was used for benchmarking the XR system.</li>
@@ -186,9 +192,8 @@
           <li>Devised techniques for the visualization and exploration of RDF
             graphs, publishing 2 papers (in JVLC, ESWC).</li>
           <li>Implemented some of the major features of StarLion, an RDF
-            visualization
-            application written in Java (relying on JGraph), such as
-            smooth transitions, semi-automatic layout, plugin support, force
+            visualization application written in Java (relying on JGraph), such
+            as smooth transitions, semi-automatic layout, plugin support, force
             indicators, node colouring, save/load layouts, undo/redo actions,
             image exporting ), which according to user studies greatly improved
             the usability of the tool.</li>
