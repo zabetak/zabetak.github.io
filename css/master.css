@@ -30,9 +30,13 @@ article h4 {
   margin-bottom: 5px;
 }
 
+.job {
+  display: flex;
+  align-items: center;
+}
+
 .organization {
   margin-left: auto;
-  order: 1;
 }
 
 .time-in-position {
