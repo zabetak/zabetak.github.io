@@ -19,3 +19,22 @@ body {
   margin-left: auto;
   flex-shrink: 3;
 }
+
+h2, h3 {
+  margin: 5px 0 5px 0;
+}
+
+article h4 {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.organization {
+  margin-left: auto;
+  order: 1;
+}
+
+.time-in-position {
+  order: 0;
+}
