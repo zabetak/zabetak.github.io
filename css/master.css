@@ -42,3 +42,19 @@ article h4 {
 .time-in-position {
   order: 0;
 }
+
+.layout {
+  display: flex;
+}
+
+.main {
+  max-width: 71%;
+}
+
+.side {
+  padding: 0 2% 0 2%;
+}
+
+.side .job {
+    display: block;
+}
