@@ -41,6 +41,10 @@ body {
   flex-shrink: 3;
 }
 
+h2 {
+  border-bottom: 1px solid;
+}
+
 h2, h3 {
   margin: 5px 0 5px 0;
 }
