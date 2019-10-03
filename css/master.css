@@ -11,6 +11,18 @@
   background-color: var(--color-1);
 }
 
+#profile-photo {
+  height: 115px;
+}
+
+#primary, #secondary {
+  padding: 0 10px 0 10px;
+}
+
+img {
+  height: 100%;
+}
+
 .contact ul {
   list-style-type: none;
   padding-left: 0;
