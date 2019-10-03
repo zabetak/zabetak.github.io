@@ -1,7 +1,14 @@
+:root {
+  --color-1: #434E5E;
+  --color-2: #FFFFFF;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
   flex-wrap:  nowrap;
+  color: var(--color-2);
+  background-color: var(--color-1);
 }
 
 .contact ul {
@@ -9,7 +16,16 @@
   padding-left: 0;
 }
 
+.contact a {
+  color: var(--color-2);
+}
+
+a {
+  color: var(--color-1);
+}
+
 body {
+  color: var(--color-1);
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
