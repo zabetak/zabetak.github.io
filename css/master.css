@@ -117,3 +117,29 @@ article h4 {
   border-width: 1px;
   border-color:var(--color-1);
 }
+
+@media screen and (max-width: 600px) {
+
+
+  body {
+    text-align: center;
+  }
+  ul {
+    text-align: left;
+  }
+
+  .contact {
+    display: block;
+
+  }
+  .main {
+    max-width: 100%;
+  }
+
+  .job {
+    display: block;
+  }
+  .layout {
+    display: block;
+  }
+}
